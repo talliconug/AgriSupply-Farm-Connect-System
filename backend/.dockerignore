@@ -1,0 +1,62 @@
+# Docker Ignore File
+# Prevents unnecessary files from being included in Docker builds
+
+# Version control
+.git
+.gitignore
+
+# Dependencies (will be installed in container)
+node_modules
+.npm
+
+# IDE and editor files
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files (secrets)
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Test files
+tests
+__tests__
+*.test.js
+*.spec.js
+coverage
+.nyc_output
+
+# Documentation
+docs
+*.md
+!README.md
+
+# Build artifacts
+dist
+build
+
+# Temporary files
+tmp
+temp
+.tmp
+
+# Development files
+.eslintcache
+.prettierignore
+
+# Docker files
+Dockerfile
+docker-compose*.yml
+.dockerignore

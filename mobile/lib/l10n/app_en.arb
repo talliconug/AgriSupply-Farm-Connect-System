@@ -1,0 +1,359 @@
+{
+  "@@locale": "en",
+  "@@last_modified": "2024-01-15T10:00:00.000Z",
+  
+  "appTitle": "AgriSupply",
+  "@appTitle": {
+    "description": "The application title"
+  },
+  
+  "appTagline": "Farm Fresh to Your Doorstep",
+  "@appTagline": {
+    "description": "The app's main tagline"
+  },
+
+  "welcomeMessage": "Welcome to AgriSupply",
+  "welcomeSubtitle": "Connecting Ugandan Farmers with Buyers",
+
+  "login": "Login",
+  "register": "Register",
+  "logout": "Logout",
+  "email": "Email",
+  "password": "Password",
+  "confirmPassword": "Confirm Password",
+  "forgotPassword": "Forgot Password?",
+  "resetPassword": "Reset Password",
+  "sendResetLink": "Send Reset Link",
+  
+  "fullName": "Full Name",
+  "phoneNumber": "Phone Number",
+  "enterPhone": "Enter your phone number",
+  "verifyPhone": "Verify Phone",
+  "enterOtp": "Enter OTP Code",
+  "resendOtp": "Resend OTP",
+  "otpSent": "OTP sent to {phone}",
+  "@otpSent": {
+    "placeholders": {
+      "phone": {
+        "type": "String"
+      }
+    }
+  },
+
+  "selectRole": "Select your role",
+  "buyerRole": "Buyer",
+  "buyerRoleDesc": "I want to buy fresh farm products",
+  "farmerRole": "Farmer",
+  "farmerRoleDesc": "I want to sell my farm products",
+
+  "home": "Home",
+  "products": "Products",
+  "cart": "Cart",
+  "orders": "Orders",
+  "profile": "Profile",
+  "favorites": "Favorites",
+  "notifications": "Notifications",
+
+  "categories": "Categories",
+  "allCategories": "All Categories",
+  "vegetables": "Vegetables",
+  "fruits": "Fruits",
+  "grains": "Grains",
+  "dairy": "Dairy",
+  "meat": "Meat",
+  "poultry": "Poultry",
+  "fishSeafood": "Fish & Seafood",
+  "herbsSpices": "Herbs & Spices",
+  "rootTubers": "Root & Tubers",
+  "otherProducts": "Other",
+
+  "searchProducts": "Search products...",
+  "filterProducts": "Filter Products",
+  "sortBy": "Sort By",
+  "sortByPriceLow": "Price: Low to High",
+  "sortByPriceHigh": "Price: High to Low",
+  "sortByNewest": "Newest First",
+  "sortByRating": "Highest Rated",
+
+  "priceRange": "Price Range",
+  "minPrice": "Min Price",
+  "maxPrice": "Max Price",
+  "applyFilter": "Apply Filter",
+  "clearFilter": "Clear All",
+
+  "organic": "Organic",
+  "organicCertified": "Organic Certified",
+  "freshPicked": "Fresh Picked",
+  "inStock": "In Stock",
+  "outOfStock": "Out of Stock",
+  "lowStock": "Low Stock",
+  "itemsLeft": "{count} items left",
+  "@itemsLeft": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+
+  "productDetails": "Product Details",
+  "description": "Description",
+  "specifications": "Specifications",
+  "reviews": "Reviews",
+  "noReviews": "No reviews yet",
+  "writeReview": "Write a Review",
+  "rating": "Rating",
+  "ratingCount": "{count} ratings",
+  "@ratingCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+
+  "addToCart": "Add to Cart",
+  "addedToCart": "Added to cart",
+  "removeFromCart": "Remove from Cart",
+  "buyNow": "Buy Now",
+  "quantity": "Quantity",
+  "unitPrice": "Unit Price",
+  "total": "Total",
+
+  "perKg": "/kg",
+  "perBunch": "/bunch",
+  "perPiece": "/piece",
+  "perLitre": "/litre",
+  "perDozen": "/dozen",
+  "perCrate": "/crate",
+  "perBag": "/bag",
+
+  "shoppingCart": "Shopping Cart",
+  "cartEmpty": "Your cart is empty",
+  "cartEmptyMessage": "Add some fresh products to your cart",
+  "continueShopping": "Continue Shopping",
+  "subtotal": "Subtotal",
+  "deliveryFee": "Delivery Fee",
+  "grandTotal": "Grand Total",
+  "proceedToCheckout": "Proceed to Checkout",
+
+  "checkout": "Checkout",
+  "deliveryAddress": "Delivery Address",
+  "selectAddress": "Select Address",
+  "addNewAddress": "Add New Address",
+  "editAddress": "Edit Address",
+  "deleteAddress": "Delete Address",
+  "setAsDefault": "Set as Default",
+  
+  "addressLabel": "Address Label",
+  "streetAddress": "Street Address",
+  "city": "City",
+  "district": "District",
+  "region": "Region",
+  "landmark": "Landmark",
+  "deliveryInstructions": "Delivery Instructions",
+
+  "paymentMethod": "Payment Method",
+  "selectPayment": "Select Payment Method",
+  "mtnMobileMoney": "MTN Mobile Money",
+  "airtelMoney": "Airtel Money",
+  "cardPayment": "Card Payment",
+  "cashOnDelivery": "Cash on Delivery",
+  
+  "mtnNumber": "MTN Number",
+  "airtelNumber": "Airtel Number",
+  "enterMobileNumber": "Enter mobile money number",
+  
+  "cardNumber": "Card Number",
+  "expiryDate": "Expiry Date",
+  "cvv": "CVV",
+  "cardHolder": "Card Holder Name",
+
+  "orderSummary": "Order Summary",
+  "placeOrder": "Place Order",
+  "confirmOrder": "Confirm Order",
+  "orderPlaced": "Order Placed Successfully!",
+  "orderNumber": "Order #{number}",
+  "@orderNumber": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "trackOrder": "Track Order",
+  "viewOrderDetails": "View Order Details",
+
+  "orderStatus": "Order Status",
+  "pending": "Pending",
+  "confirmed": "Confirmed",
+  "processing": "Processing",
+  "shipped": "Shipped",
+  "outForDelivery": "Out for Delivery",
+  "delivered": "Delivered",
+  "cancelled": "Cancelled",
+  "refunded": "Refunded",
+
+  "myOrders": "My Orders",
+  "orderHistory": "Order History",
+  "noOrders": "No orders yet",
+  "noOrdersMessage": "Your orders will appear here",
+  "cancelOrder": "Cancel Order",
+  "cancelOrderConfirm": "Are you sure you want to cancel this order?",
+  "orderCancelled": "Order cancelled successfully",
+
+  "payment": "Payment",
+  "paymentStatus": "Payment Status",
+  "paymentPending": "Payment Pending",
+  "paymentProcessing": "Processing Payment...",
+  "paymentSuccessful": "Payment Successful",
+  "paymentFailed": "Payment Failed",
+  "retryPayment": "Retry Payment",
+
+  "farmerDashboard": "Farmer Dashboard",
+  "myProducts": "My Products",
+  "addProduct": "Add Product",
+  "editProduct": "Edit Product",
+  "deleteProduct": "Delete Product",
+  "productName": "Product Name",
+  "productPrice": "Product Price",
+  "productDescription": "Product Description",
+  "productCategory": "Category",
+  "productImages": "Product Images",
+  "uploadImages": "Upload Images",
+  "stockQuantity": "Stock Quantity",
+  "unitType": "Unit Type",
+  "publishProduct": "Publish Product",
+  "saveDraft": "Save as Draft",
+
+  "earnings": "Earnings",
+  "totalEarnings": "Total Earnings",
+  "thisMonth": "This Month",
+  "thisWeek": "This Week",
+  "today": "Today",
+  "pendingPayout": "Pending Payout",
+  "withdrawEarnings": "Withdraw Earnings",
+  
+  "followers": "Followers",
+  "following": "Following",
+  "follow": "Follow",
+  "unfollow": "Unfollow",
+  "viewProfile": "View Profile",
+
+  "aiAssistant": "AI Assistant",
+  "farmingAssistant": "Farming Assistant",
+  "askQuestion": "Ask a question...",
+  "typeMessage": "Type your message...",
+  "sendMessage": "Send",
+  "analyzing": "Analyzing...",
+  "takePicture": "Take Picture",
+  "uploadPicture": "Upload Picture",
+  "analyzeCrop": "Analyze Crop",
+  "identifyPest": "Identify Pest",
+  "diagnoseProblem": "Diagnose Problem",
+
+  "weather": "Weather",
+  "currentWeather": "Current Weather",
+  "forecast": "Forecast",
+  "temperature": "Temperature",
+  "humidity": "Humidity",
+  "rainfall": "Rainfall",
+  "weatherAlerts": "Weather Alerts",
+
+  "settings": "Settings",
+  "accountSettings": "Account Settings",
+  "notificationSettings": "Notification Settings",
+  "languageSettings": "Language",
+  "selectLanguage": "Select Language",
+  "english": "English",
+  "luganda": "Luganda",
+  "runyankole": "Runyankole",
+  
+  "darkMode": "Dark Mode",
+  "lightMode": "Light Mode",
+  "systemTheme": "System Theme",
+  
+  "privacyPolicy": "Privacy Policy",
+  "termsOfService": "Terms of Service",
+  "helpCenter": "Help Center",
+  "contactSupport": "Contact Support",
+  "aboutUs": "About Us",
+  "appVersion": "App Version {version}",
+  "@appVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+
+  "deleteAccount": "Delete Account",
+  "deleteAccountWarning": "This action cannot be undone. All your data will be permanently deleted.",
+  "confirmDelete": "Yes, Delete My Account",
+
+  "loading": "Loading...",
+  "pleaseWait": "Please wait...",
+  "refresh": "Refresh",
+  "retry": "Retry",
+  "save": "Save",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "done": "Done",
+  "next": "Next",
+  "back": "Back",
+  "skip": "Skip",
+  "close": "Close",
+  "ok": "OK",
+  "yes": "Yes",
+  "no": "No",
+  "edit": "Edit",
+  "delete": "Delete",
+  "share": "Share",
+  "copy": "Copy",
+  "search": "Search",
+  "clear": "Clear",
+  "seeAll": "See All",
+  "viewMore": "View More",
+  "showLess": "Show Less",
+
+  "error": "Error",
+  "success": "Success",
+  "warning": "Warning",
+  "info": "Info",
+  
+  "networkError": "Network error. Please check your connection.",
+  "serverError": "Server error. Please try again later.",
+  "unknownError": "An unknown error occurred.",
+  "sessionExpired": "Session expired. Please login again.",
+  "invalidCredentials": "Invalid email or password.",
+  "emailAlreadyExists": "This email is already registered.",
+  "weakPassword": "Password is too weak.",
+  "invalidEmail": "Please enter a valid email.",
+  "requiredField": "This field is required.",
+  "invalidPhone": "Please enter a valid phone number.",
+  
+  "noInternetConnection": "No internet connection",
+  "offlineMode": "You're offline. Some features may be limited.",
+  "dataWillSync": "Data will sync when you're back online.",
+
+  "ugandaShilling": "UGX",
+  "currency": "UGX {amount}",
+  "@currency": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+
+  "kampala": "Kampala",
+  "wakiso": "Wakiso",
+  "mukono": "Mukono",
+  "jinja": "Jinja",
+  "entebbe": "Entebbe",
+  "mbarara": "Mbarara",
+  "gulu": "Gulu",
+  "lira": "Lira",
+  "mbale": "Mbale",
+  "fortPortal": "Fort Portal"
+}

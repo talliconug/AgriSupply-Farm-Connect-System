@@ -1,0 +1,83 @@
+version: '3.8'
+
+services:
+  # Backend API
+  api:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: agrisupply-api
+    restart: unless-stopped
+    ports:
+      - "${PORT:-5000}:5000"
+    environment:
+      - NODE_ENV=${NODE_ENV:-production}
+      - PORT=5000
+      - SUPABASE_URL=${SUPABASE_URL}
+      - SUPABASE_ANON_KEY=${SUPABASE_ANON_KEY}
+      - SUPABASE_SERVICE_ROLE_KEY=${SUPABASE_SERVICE_ROLE_KEY}
+      - JWT_SECRET=${JWT_SECRET}
+      - JWT_EXPIRES_IN=${JWT_EXPIRES_IN:-7d}
+      - GROQ_API_KEY=${GROQ_API_KEY}
+      - MTN_API_KEY=${MTN_API_KEY}
+      - MTN_API_SECRET=${MTN_API_SECRET}
+      - MTN_CALLBACK_URL=${MTN_CALLBACK_URL}
+      - AIRTEL_CLIENT_ID=${AIRTEL_CLIENT_ID}
+      - AIRTEL_CLIENT_SECRET=${AIRTEL_CLIENT_SECRET}
+      - AIRTEL_CALLBACK_URL=${AIRTEL_CALLBACK_URL}
+      - FLUTTERWAVE_PUBLIC_KEY=${FLUTTERWAVE_PUBLIC_KEY}
+      - FLUTTERWAVE_SECRET_KEY=${FLUTTERWAVE_SECRET_KEY}
+      - FIREBASE_PROJECT_ID=${FIREBASE_PROJECT_ID}
+      - FIREBASE_PRIVATE_KEY=${FIREBASE_PRIVATE_KEY}
+      - FIREBASE_CLIENT_EMAIL=${FIREBASE_CLIENT_EMAIL}
+    volumes:
+      - api-logs:/app/logs
+    networks:
+      - agrisupply-network
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:5000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+  # Nginx Reverse Proxy (Optional - for production)
+  nginx:
+    image: nginx:alpine
+    container_name: agrisupply-nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/ssl:/etc/nginx/ssl:ro
+    depends_on:
+      - api
+    networks:
+      - agrisupply-network
+    profiles:
+      - production
+
+  # Redis Cache (Optional - for session/rate limiting)
+  redis:
+    image: redis:7-alpine
+    container_name: agrisupply-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    networks:
+      - agrisupply-network
+    profiles:
+      - cache
+    command: redis-server --appendonly yes
+
+networks:
+  agrisupply-network:
+    driver: bridge
+
+volumes:
+  api-logs:
+  redis-data:

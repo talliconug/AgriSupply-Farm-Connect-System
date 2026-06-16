@@ -1,0 +1,359 @@
+{
+  "@@locale": "lg",
+  "@@last_modified": "2024-01-15T10:00:00.000Z",
+  
+  "appTitle": "AgriSupply",
+  "@appTitle": {
+    "description": "Erinnya lya polokulama"
+  },
+  
+  "appTagline": "Okuva mu nnimiro Okutuuka ku Luggi Lwo",
+  "@appTagline": {
+    "description": "Ekikwata ku polokulama"
+  },
+
+  "welcomeMessage": "Tukusanidde mu AgriSupply",
+  "welcomeSubtitle": "Tukugatta Abalimi ba Uganda n'Abasubuzi",
+
+  "login": "Yingira",
+  "register": "Wandiika",
+  "logout": "Fuluma",
+  "email": "Email",
+  "password": "Ekikuumi",
+  "confirmPassword": "Kakasa Ekikuumi",
+  "forgotPassword": "Wereze Ekikuumi?",
+  "resetPassword": "Ddamu Ekikuumi",
+  "sendResetLink": "Sindika Link y'Okuddamu",
+  
+  "fullName": "Erinnya Lyo Lyonna",
+  "phoneNumber": "Ennamba ya Simu",
+  "enterPhone": "Wandika ennamba y'essimu yo",
+  "verifyPhone": "Kakasa Essimu",
+  "enterOtp": "Wandika Ennamba OTP",
+  "resendOtp": "Ddamu Sindika OTP",
+  "otpSent": "OTP esindikiddwa ku {phone}",
+  "@otpSent": {
+    "placeholders": {
+      "phone": {
+        "type": "String"
+      }
+    }
+  },
+
+  "selectRole": "Londa omulimu gwo",
+  "buyerRole": "Omuguzi",
+  "buyerRoleDesc": "Njagala okugula eby'okulya ebya bulijjo",
+  "farmerRole": "Omulimi",
+  "farmerRoleDesc": "Njagala okutunda ebivundu byange",
+
+  "home": "Awaka",
+  "products": "Ebintu",
+  "cart": "Entamu",
+  "orders": "Endagaano",
+  "profile": "Ebinkukwatako",
+  "favorites": "Ebisinga",
+  "notifications": "Amawulire",
+
+  "categories": "Ebika",
+  "allCategories": "Ebika Byonna",
+  "vegetables": "Enva",
+  "fruits": "Ebibala",
+  "grains": "Empeke",
+  "dairy": "Ebiva mu Nte",
+  "meat": "Ennyama",
+  "poultry": "Enkoko",
+  "fishSeafood": "Ebyennyanja",
+  "herbsSpices": "Ebivundu n'Obumba",
+  "rootTubers": "Ebirimu Emirandira",
+  "otherProducts": "Ebilala",
+
+  "searchProducts": "Noonya ebintu...",
+  "filterProducts": "Londera Ebintu",
+  "sortBy": "Teeka Mu Nteekateeka",
+  "sortByPriceLow": "Bbeeyi: Entono Okutuuka ku Nene",
+  "sortByPriceHigh": "Bbeeyi: Nene Okutuuka ku Ntono",
+  "sortByNewest": "Ebipya Byasooka",
+  "sortByRating": "Ebisinze Okusiimibwa",
+
+  "priceRange": "Omugaso",
+  "minPrice": "Omugaso Omutono",
+  "maxPrice": "Omugaso Omunene",
+  "applyFilter": "Kozesa Ekilondera",
+  "clearFilter": "Jjamu Byonna",
+
+  "organic": "Eyabulijjo",
+  "organicCertified": "Eyakakasibwa Eyabulijjo",
+  "freshPicked": "Ekizibide Olwaleero",
+  "inStock": "Kiriwo",
+  "outOfStock": "Tewali",
+  "lowStock": "Bisigadde Bitono",
+  "itemsLeft": "Bisigadde {count}",
+  "@itemsLeft": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+
+  "productDetails": "Ebikukwatako",
+  "description": "Ennyonyola",
+  "specifications": "Ebifaananyi",
+  "reviews": "Endowooza",
+  "noReviews": "Tewali ndowooza",
+  "writeReview": "Wandika Endowooza",
+  "rating": "Omuwendo",
+  "ratingCount": "Omuwendo {count}",
+  "@ratingCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+
+  "addToCart": "Gattako ku Ntamu",
+  "addedToCart": "Kigattidwako ku ntamu",
+  "removeFromCart": "Kiggyeko ku Ntamu",
+  "buyNow": "Gula Kati",
+  "quantity": "Obungi",
+  "unitPrice": "Bbeeyi y'Ekimu",
+  "total": "Omuwendo Gwonna",
+
+  "perKg": "/kg",
+  "perBunch": "/ekibbo",
+  "perPiece": "/ekitundu",
+  "perLitre": "/lita",
+  "perDozen": "/kumi na bibiri",
+  "perCrate": "/entamu",
+  "perBag": "/ensawo",
+
+  "shoppingCart": "Entamu y'Ebigula",
+  "cartEmpty": "Entamu yo njereere",
+  "cartEmptyMessage": "Gattako ebintu ebipya ku ntamu yo",
+  "continueShopping": "Komeza Okugula",
+  "subtotal": "Omutongole",
+  "deliveryFee": "Ssente z'Okuleeta",
+  "grandTotal": "Omuwendo Gwonna",
+  "proceedToCheckout": "Genda mu Kusasula",
+
+  "checkout": "Sasula",
+  "deliveryAddress": "Endabirira y'Okuleeta",
+  "selectAddress": "Londa Endabirira",
+  "addNewAddress": "Gattako Endabirira Empya",
+  "editAddress": "Kyusa Endabirira",
+  "deleteAddress": "Sang'a Endabirira",
+  "setAsDefault": "Tekamu Engeri",
+  
+  "addressLabel": "Erinnya ly'Endabirira",
+  "streetAddress": "Endabirira y'Oluguudo",
+  "city": "Ekibuga",
+  "district": "Disitulikiti",
+  "region": "Ekitundu",
+  "landmark": "Ekifo ekizaawa",
+  "deliveryInstructions": "Ebiragiro by'Okuleeta",
+
+  "paymentMethod": "Enkola y'Okusasula",
+  "selectPayment": "Londa Enkola y'Okusasula",
+  "mtnMobileMoney": "MTN Mobile Money",
+  "airtelMoney": "Airtel Money",
+  "cardPayment": "Kaadi",
+  "cashOnDelivery": "Ssente Bw'oleeta",
+  
+  "mtnNumber": "Ennamba ya MTN",
+  "airtelNumber": "Ennamba ya Airtel",
+  "enterMobileNumber": "Wandika ennamba ya mobile money",
+  
+  "cardNumber": "Ennamba ya Kaadi",
+  "expiryDate": "Olunaku lw'Okuggwa",
+  "cvv": "CVV",
+  "cardHolder": "Erinnya lya Nannyini Kaadi",
+
+  "orderSummary": "Enkola y'Endagaano",
+  "placeOrder": "Teekawo Endagaano",
+  "confirmOrder": "Kakasa Endagaano",
+  "orderPlaced": "Endagaano Etaddewo Obulungi!",
+  "orderNumber": "Endagaano #{number}",
+  "@orderNumber": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "trackOrder": "Goberera Endagaano",
+  "viewOrderDetails": "Laba Ebikukwatako by'Endagaano",
+
+  "orderStatus": "Embeera y'Endagaano",
+  "pending": "Erina",
+  "confirmed": "Ekakasiddwa",
+  "processing": "Etekawo",
+  "shipped": "Etumiddwa",
+  "outForDelivery": "Eri mu Kkubo",
+  "delivered": "Evudde",
+  "cancelled": "Ejijibbwa",
+  "refunded": "Ssente Ziddiziddwa",
+
+  "myOrders": "Endagaano Zange",
+  "orderHistory": "Ebyafaayo by'Endagaano",
+  "noOrders": "Tewali ndagaano",
+  "noOrdersMessage": "Endagaano zo zirijja wano",
+  "cancelOrder": "Jjijja Endagaano",
+  "cancelOrderConfirm": "Oli mukakafu okujjijja endagaano eno?",
+  "orderCancelled": "Endagaano ejjijjiddwa obulungi",
+
+  "payment": "Okusasula",
+  "paymentStatus": "Embeera y'Okusasula",
+  "paymentPending": "Okusasula Kwerina",
+  "paymentProcessing": "Okusasula Kukoleddwa...",
+  "paymentSuccessful": "Okusasula Kukomekeddwa Obulungi",
+  "paymentFailed": "Okusasula Kuvudde",
+  "retryPayment": "Ddamu Okusasula",
+
+  "farmerDashboard": "Essaabbo ly'Omulimi",
+  "myProducts": "Ebintu Byange",
+  "addProduct": "Gattako Ekitundu",
+  "editProduct": "Kyusa Ekitundu",
+  "deleteProduct": "Sangula Ekitundu",
+  "productName": "Erinnya ly'Ekitundu",
+  "productPrice": "Bbeeyi y'Ekitundu",
+  "productDescription": "Ennyonyola y'Ekitundu",
+  "productCategory": "Ekika",
+  "productImages": "Ebifaananyi by'Ekitundu",
+  "uploadImages": "Teeka Ebifaananyi",
+  "stockQuantity": "Obungi bw'Ekitundu",
+  "unitType": "Engeri y'Ekitundu",
+  "publishProduct": "Fulumya Ekitundu",
+  "saveDraft": "Tereka nga Draft",
+
+  "earnings": "Emiganyulo",
+  "totalEarnings": "Emiganyulo Gyonna",
+  "thisMonth": "Omwezi Guno",
+  "thisWeek": "Wiiki Eno",
+  "today": "Olwaleero",
+  "pendingPayout": "Emiganyulo Erina",
+  "withdrawEarnings": "Ggya Emiganyulo",
+  
+  "followers": "Abagoberera",
+  "following": "Ogoberera",
+  "follow": "Goberera",
+  "unfollow": "Leka Okugoberera",
+  "viewProfile": "Laba Ebikukwatako",
+
+  "aiAssistant": "Omuyambi wa AI",
+  "farmingAssistant": "Omuyambi w'Okulima",
+  "askQuestion": "Buuza ekibuuzo...",
+  "typeMessage": "Wandika obubaka bwo...",
+  "sendMessage": "Sindika",
+  "analyzing": "Kwekeneenya...",
+  "takePicture": "Kwata Ekifaananyi",
+  "uploadPicture": "Teeka Ekifaananyi",
+  "analyzeCrop": "Keneenya Ekimera",
+  "identifyPest": "Manya Ekiwuka",
+  "diagnoseProblem": "Manya Obuzibu",
+
+  "weather": "Obudde",
+  "currentWeather": "Obudde bwa Kati",
+  "forecast": "Obulagula bw'Obudde",
+  "temperature": "Ebbugumu",
+  "humidity": "Okunywa",
+  "rainfall": "Enkuba",
+  "weatherAlerts": "Amawulire g'Obudde",
+
+  "settings": "Entegeka",
+  "accountSettings": "Entegeka z'Akawunti",
+  "notificationSettings": "Entegeka z'Amawulire",
+  "languageSettings": "Olulimi",
+  "selectLanguage": "Londa Olulimi",
+  "english": "Olungereza",
+  "luganda": "Oluganda",
+  "runyankole": "Runyankole",
+  
+  "darkMode": "Ekizikiza",
+  "lightMode": "Obutangaavu",
+  "systemTheme": "Engeri ya System",
+  
+  "privacyPolicy": "Enkola y'Ebyama",
+  "termsOfService": "Enkolagana",
+  "helpCenter": "Obuyambi",
+  "contactSupport": "Tugatteko",
+  "aboutUs": "Ebife",
+  "appVersion": "Vaasiyo {version}",
+  "@appVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+
+  "deleteAccount": "Sangula Akawunti",
+  "deleteAccountWarning": "Kino tekisobola kuddizibwa. Ebikukwatako byonna bijja kusangulwa.",
+  "confirmDelete": "Yee, Sangula Akawunti Yange",
+
+  "loading": "Kiteekwa...",
+  "pleaseWait": "Lindako...",
+  "refresh": "Ddamu",
+  "retry": "Gezaako Nate",
+  "save": "Tereka",
+  "cancel": "Sazaamu",
+  "confirm": "Kakasa",
+  "done": "Biwedde",
+  "next": "Ekiddako",
+  "back": "Emabega",
+  "skip": "Buuka",
+  "close": "Ggalawo",
+  "ok": "OK",
+  "yes": "Yee",
+  "no": "Nedda",
+  "edit": "Kyusa",
+  "delete": "Sangula",
+  "share": "Gabana",
+  "copy": "Koppa",
+  "search": "Noonya",
+  "clear": "Jjamu",
+  "seeAll": "Laba Byonna",
+  "viewMore": "Laba Ebisingako",
+  "showLess": "Laba Bitono",
+
+  "error": "Ensobi",
+  "success": "Kiwedde Bulungi",
+  "warning": "Okulabula",
+  "info": "Amawulire",
+  
+  "networkError": "Ensobi y'omukutu. Kebera okunyunyuza kwo.",
+  "serverError": "Ensobi ya sevva. Gezaako nate oluvannyuma.",
+  "unknownError": "Ensobi etamanyiddwa ebaddewo.",
+  "sessionExpired": "Ssesiyo ewedde. Yingira nate.",
+  "invalidCredentials": "Email oba password si ya butuufu.",
+  "emailAlreadyExists": "Email eno ewandikiddwa dda.",
+  "weakPassword": "Password ya nafu.",
+  "invalidEmail": "Wandika email ya mazima.",
+  "requiredField": "Kino kyetaagisa.",
+  "invalidPhone": "Wandika ennamba y'essimu ya mazima.",
+  
+  "noInternetConnection": "Tewali mukutu",
+  "offlineMode": "Oli offline. Ebintu ebimu bisobola obutakola.",
+  "dataWillSync": "Ebintu bijja okukwatagana bw'oddayo online.",
+
+  "ugandaShilling": "UGX",
+  "currency": "UGX {amount}",
+  "@currency": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+
+  "kampala": "Kampala",
+  "wakiso": "Wakiso",
+  "mukono": "Mukono",
+  "jinja": "Jinja",
+  "entebbe": "Entebbe",
+  "mbarara": "Mbarara",
+  "gulu": "Gulu",
+  "lira": "Lira",
+  "mbale": "Mbale",
+  "fortPortal": "Fort Portal"
+}

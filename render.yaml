@@ -1,0 +1,80 @@
+services:
+  - type: web
+    name: agrisupply-backend
+    env: node
+    plan: free
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3000
+      - key: API_VERSION
+        value: v1
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_ANON_KEY
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: JWT_EXPIRES_IN
+        value: 7d
+      - key: JWT_REFRESH_SECRET
+        generateValue: true
+      - key: JWT_REFRESH_EXPIRES_IN
+        value: 30d
+      - key: GROQ_API_KEY
+        sync: false
+      - key: GROQ_MODEL
+        value: llama-3.1-70b-versatile
+      - key: GROQ_VISION_MODEL
+        value: llama-3.2-90b-vision-preview
+      - key: MARZPAY_API_KEY
+        sync: false
+      - key: MARZPAY_API_SECRET
+        sync: false
+      - key: MARZPAY_API_URL
+        value: https://wallet.wearemarz.com/api/v1
+      - key: MARZPAY_CALLBACK_URL
+        value: https://agrisupply-backend.onrender.com/api/v1/payments/marzpay/callback
+      - key: APP_URL
+        value: https://agrisupply-backend.onrender.com
+      - key: MTN_API_KEY
+        sync: false
+      - key: MTN_API_SECRET
+        sync: false
+      - key: MTN_ENVIRONMENT
+        value: sandbox
+      - key: MTN_SUBSCRIPTION_KEY
+        sync: false
+      - key: AIRTEL_API_KEY
+        sync: false
+      - key: AIRTEL_API_SECRET
+        sync: false
+      - key: AIRTEL_ENVIRONMENT
+        value: sandbox
+      - key: FLUTTERWAVE_PUBLIC_KEY
+        sync: false
+      - key: FLUTTERWAVE_SECRET_KEY
+        sync: false
+      - key: FLUTTERWAVE_ENCRYPTION_KEY
+        sync: false
+      - key: GOOGLE_CLIENT_ID
+        sync: false
+      - key: GOOGLE_CLIENT_SECRET
+        sync: false
+      - key: FIREBASE_PROJECT_ID
+        sync: false
+      - key: FIREBASE_PRIVATE_KEY
+        sync: false
+      - key: FIREBASE_CLIENT_EMAIL
+        sync: false
+      - key: RATE_LIMIT_WINDOW_MS
+        value: 900000
+      - key: RATE_LIMIT_MAX_REQUESTS
+        value: 100

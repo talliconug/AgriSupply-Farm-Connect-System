@@ -1,0 +1,28 @@
+# Flutter Localization Configuration
+# This file configures the flutter_localizations package
+
+# Directory containing the ARB files
+arb-dir: lib/l10n
+
+# Template ARB file (used as the source for generating localizations)
+template-arb-file: app_en.arb
+
+# Output file name for the generated localizations class
+output-localization-file: app_localizations.dart
+
+# Class name for the generated localizations
+output-class: AppLocalizations
+
+# Mark nullable getters
+nullable-getter: false
+
+# Required resource attributes
+required-resource-attributes: false
+
+# Preferred supported locales
+preferred-supported-locales:
+  - en
+  - lg
+
+# Untranslated messages file (optional)
+# untranslated-messages-file: lib/l10n/untranslated.txt
