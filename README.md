@@ -57,8 +57,7 @@ AgriSupply Farm Connect System is a comprehensive mobile application designed to
 
 ### AI-Powered Features 
 - **Farming Chatbot** - 24/7 agricultural advice in local context
-- **Crop Analysis** - Upload images for plant health assessment
-- **Pest Identification** - Identify pests and get treatment advice
+- **Pest Identification by description** - Identify pests and get treatment advice
 - **Market Predictions** - AI-powered price forecasting
 - **Weather Tips** - Weather-based farming recommendations
 
