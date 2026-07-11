@@ -18,9 +18,9 @@
 
 ---
 
-##  Agri Supply Farm Connect System.
+##  AgriSupply Farm Connect System.
 
-AgriSupply is a comprehensive mobile application designed to bridge the communication and trade gap between local smallholder farmers and buyers in Uganda.
+AgriSupply Farm Connect System is a comprehensive mobile application designed to bridge the communication and trade gap between local smallholder farmers and buyers in Uganda.
 
 ###  Problem and solution.
 ### The Problem
