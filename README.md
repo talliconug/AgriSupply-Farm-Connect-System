@@ -23,7 +23,7 @@
 AgriSupply is a comprehensive mobile application designed to bridge the communication and trade gap between local smallholder farmers and buyers in Uganda.
 
 ###  Problem and solution.
-​The Problem
+## ​The Problem
 ​Smallholder and medium-scale farming communities in Uganda are heavily disadvantaged by fragmented, manual distribution channels, resulting in uncoordinated market access and depressed profit margins. This issue escalates during peak harvesting seasons, causing severe post-harvest food losses. The lack of direct connectivity forces primary producers to rely on exploitative middlemen who buy produce at artificially low prices and resell it at high markups, leaving both farmers and urban suppliers economically disenfranchised.
 
 ## ​The Solution
