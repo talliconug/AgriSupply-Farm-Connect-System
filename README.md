@@ -28,12 +28,6 @@ AgriSupply is a comprehensive mobile application designed to bridge the communic
 
 ## ​The Solution
 ​The Agri Supply Farm Connect System is a mobile application developed to establish a direct peer-to-peer digital marketplace. By removing traditional intermediaries from the value chain, the application empowers farmers to list crops with autonomous localized pricing and manage orders directly from their phones. Simultaneously, it provides customers and urban suppliers with an interactive platform to browse fresh produce, track orders, and complete secure mobile money transactions, promoting transparency and digital inclusion.
-### Targetted Impact
-- **5,000+** Registered Farmers
-- **20,000+** Active Buyers
-- **UGX 2B+** Monthly Transactions
-- **4 Regions** Covered Across Uganda
-
 ##  Features
 
 ### For Farmers 
