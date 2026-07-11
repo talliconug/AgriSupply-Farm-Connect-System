@@ -18,13 +18,16 @@
 
 ---
 
-##  About
+##  About.
 
-AgriSupply is a comprehensive digital agriculture marketplace designed specifically for Uganda. It connects farmers directly with buyers, eliminating middlemen and ensuring fair prices for both parties.
+AgriSupply is a comprehensive mobile application designed to bridge the communication and trade gap between local smallholder farmers and buyers in Uganda.
 
-###  Mission
-To empower Ugandan farmers with technology that increases their income, reduces post-harvest losses, and provides access to a wider market.
+###  Problem and solution.
+​The Problem
+​Smallholder and medium-scale farming communities in Uganda are heavily disadvantaged by fragmented, manual distribution channels, resulting in uncoordinated market access and depressed profit margins. This issue escalates during peak harvesting seasons, causing severe post-harvest food losses. The lack of direct connectivity forces primary producers to rely on exploitative middlemen who buy produce at artificially low prices and resell it at high markups, leaving both farmers and urban suppliers economically disenfranchised.
 
+## ​The Solution
+​The Agri Supply Farm Connect System is a mobile application developed to establish a direct peer-to-peer digital marketplace. By removing traditional intermediaries from the value chain, the application empowers farmers to list crops with autonomous localized pricing and manage orders directly from their phones. Simultaneously, it provides customers and urban suppliers with an interactive platform to browse fresh produce, track orders, and complete secure mobile money transactions, promoting transparency and digital inclusion.
 ### Targetted Impact
 - **5,000+** Registered Farmers
 - **20,000+** Active Buyers
